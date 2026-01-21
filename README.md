@@ -3,7 +3,7 @@
 This project displays the first 50 Airbnb listings loaded from a JSON file using JavaScript `fetch()` with `async/await`.
 
 ## Live Demo
-(Will be added after GitHub Pages deployment)
+https://navanika2211.github.io/airbnb-listings/
 
 ## Features
 - AJAX data loading using fetch and async/await
