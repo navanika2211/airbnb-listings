@@ -7,7 +7,7 @@ async function loadListings() {
   const response = await fetch("./data/airbnb_listings.json");
   const data = await response.json();
 
-  allListings = Array.isArray(data) ? data : data.listings;
+ allListings = data.results;
 
   displayListings(allListings.slice(0, 50));
 }
